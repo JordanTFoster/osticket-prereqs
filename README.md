@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create an Azure Virtual Machine. (Windows 11 Pro)
 - Log into the VM with Remote Desktop
 - Install / Enable IIS with CGI in Windows (Internet Information Services)
-- Download the [osTicket-Installation-Files.zip](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download)
+- Download the [osTicket-Installation-Files.zip](https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download) to the desktop of the VM.
 
 <h2>Installation Steps</h2>
 
