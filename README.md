@@ -266,5 +266,39 @@ Click apply to apply the changes, then click Ok to exit the advanced security se
 </p>
 
 <p>
+<img width="1596" height="1715" alt="image" src="https://github.com/user-attachments/assets/fed79365-1336-4562-b735-44d6fcfcddc6" />
+</p>
+<p>
+Go back to your open osTicket website and continue with the install. 
+</p>
+<br />
+
+<p>
+<img width="1596" height="1713" alt="image" src="https://github.com/user-attachments/assets/358eadfc-e9f0-41d5-8164-6b44a4798b56" />
+</p>
+<p>
+You'll want to fill in the information on screen. For your admin user info be sure to write it down for safe keeping.
+</p>
+<br />
+
+<p>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/5e0aa8fd-2a85-4162-85ec-e49b1efb8741" />
+</p>
+<p>
+Inside the "osTicket-Installation-Files" folder on the VM desktop is a program called "HeidiSQL_12.3.0.6589_Setup". We will need to run this application to set up our database and configure it for osTicket.
+</p>
+<br />
+
+<p>
+<img width="995" height="811" alt="image" src="https://github.com/user-attachments/assets/3a078a35-7393-43f9-9dfc-f2b84eab0907" />
+Accept and click next
+</p>
+<p>
+<img width="994" height="805" alt="image" src="https://github.com/user-attachments/assets/d0fbfbf4-74ed-4d78-b889-a1d6bbb8fe52" />
+  Continue to click next until HeidiSQL is installed and ready to launch.
+</p>
+<br />
+
+<p>
 
 </p>
