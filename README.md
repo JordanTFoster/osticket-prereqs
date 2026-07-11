@@ -82,3 +82,189 @@ You'll want to select the Standard Configuration.
 Set the username to "root" and the password to "root". (NOTE: NEVER DO THIS FOR ACTUAL SYSTEMS) 
 </p>
 <br />
+
+<p>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/277f8b69-b6ef-4bb5-86bd-ab38d1e50e2d" />
+</p>
+<p>
+After configuring MySQL, you'll want to run IIS as administrator.
+</p>
+<br />
+
+<p>
+<img width="2492" height="1298" alt="image" src="https://github.com/user-attachments/assets/16d59318-a573-49d2-9b4c-22689054bf82" />
+</p>
+<p>
+Inside IIS, You'll want to double click on the PHP Manager.
+</p>
+<br />
+
+<p>
+<img width="2492" height="1303" alt="image" src="https://github.com/user-attachments/assets/18eff35d-7f9e-48dd-9177-b0bed8d4cdd2" />
+</p>
+<p>
+<img width="2489" height="1297" alt="image" src="https://github.com/user-attachments/assets/afdf1ba5-c69a-4656-b27a-08211a6265f8" />  
+</p>
+<p>
+You'll then want to register the PHP from your C:\PHP Directory you created earlier.
+</p>
+<br />
+
+<p>
+<img width="2486" height="1302" alt="image" src="https://github.com/user-attachments/assets/cb91b9a0-4c2c-43c8-8698-c2bee5ddac9a" />
+</p>
+<p>
+<img width="2485" height="1295" alt="image" src="https://github.com/user-attachments/assets/ccd208c4-31ad-4ad5-9923-57631cb1df83" />
+</p>
+<p>
+With nothing selected in IIS, Navigate to the far right panel to stop and restart the server to initiate the changes to the PHP Configuration.
+</p>
+<br />
+
+<p>
+<img width="1974" height="1106" alt="image" src="https://github.com/user-attachments/assets/1a36e77a-0ab0-4da8-a8fe-79a3d315664d" />
+</p>
+<p>
+Inside the "osTicket-Installation-Files" folder on the VM desktop is a compressed Zip file named "osTicket-v1.15.8". Unzip it / Extract All.
+</p>
+<br />
+
+<p>
+<img width="1975" height="1102" alt="image" src="https://github.com/user-attachments/assets/96ffc168-40f2-4857-a934-ba287f62b9cb" />
+</p>
+<p>
+Inisde that osTicket-v1.15.8 folder that was just extracted there will be two more folders titled "upload" and "scripts". You'll want to copy that upload folder and paste it to the following directory.
+C:\inetpub\wwwroot  
+</p>
+<br />
+
+<p>
+<img width="1966" height="1103" alt="image" src="https://github.com/user-attachments/assets/bd14a8be-0ae7-4501-89e1-253b5b98b7d8" />
+</p>
+<p>
+After pasting the upload folder into the C:\inetpub\wwwroot directory, you'll want to rename the upload folder you just pasted to "osTicket"
+</p>
+<br />
+
+<p>
+<img width="2486" height="1302" alt="image" src="https://github.com/user-attachments/assets/cb91b9a0-4c2c-43c8-8698-c2bee5ddac9a" />
+</p>
+<p>
+<img width="2485" height="1295" alt="image" src="https://github.com/user-attachments/assets/ccd208c4-31ad-4ad5-9923-57631cb1df83" />
+</p>
+<p>
+With nothing selected in IIS, Navigate to the far right panel to stop and restart the server to initiate the changes to the wwwroot configuration.
+</p>
+<br />
+
+<p>
+<img width="2493" height="1300" alt="image" src="https://github.com/user-attachments/assets/9c0569b3-5c7e-4937-9914-6a147837f042" />
+</p>
+<p>
+On the left side connetions panel in IIS, click through the drop downs to navigate to your osTicket folder you just renamed. With the folder selected click on the "browse*:80(http)" located on the far right panel inside of IIS.
+</p>
+<br />
+
+<p>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/4a50295e-5f04-4706-8459-8c1a1240a5b3" />
+</p>
+<p>
+With everything done correctly, clicking on browse*:80(http) will redirect you to the osTicket install page. BUT as you can tell, there are some X marks on some extensions that need to be enabled.
+</p>
+
+<p>
+<img width="1592" height="1708" alt="image" src="https://github.com/user-attachments/assets/206c6a78-3efc-498a-937b-2c4728ee1181" />
+</p>
+<p>
+<img width="1599" height="1713" alt="image" src="https://github.com/user-attachments/assets/ca012786-7f75-4261-bf7b-0436bab3a8ac" />
+</p>
+<p>
+In IIS, with the osTicket folder still selected through the drop downs from the connections panel, Open PHP Manager. Once inside PHP Manager you'll want to navigate to "Enable or disable extensions".
+</p>
+<br />
+
+<p>
+<img width="1599" height="1713" alt="image" src="https://github.com/user-attachments/assets/1f2f98d5-c59d-4664-b560-7fa67172229f" />
+</p>
+<p>
+<img width="1595" height="1712" alt="image" src="https://github.com/user-attachments/assets/dc3a98b9-6f28-4075-a1ed-93917e4e151f" />
+</p>
+<p>
+The 3 extensions we want to enable are called "php_imap.dll" "php_intl.dll" "php_opcache.dll". They're enabled by clicking on the one you want and clicking "enable" on the far right panel in the top right corner of IIS.
+</p>
+<br />
+
+<p>
+<img width="1592" height="1713" alt="image" src="https://github.com/user-attachments/assets/02419d40-8ae3-4abf-b773-1829cbbf5199" />
+</p>
+<p>
+after making those changes to the extensions, we can refresh the page for osTicket and see that all of our requirements have been met. The two X's at the bottom are only neeeded for faster performance.
+</p>
+<br />
+
+<p>
+<img width="1961" height="1104" alt="image" src="https://github.com/user-attachments/assets/9bafd6e9-f411-419c-9daf-fa7fe884b827" />
+</p>
+<p>
+<img width="1964" height="1103" alt="image" src="https://github.com/user-attachments/assets/dbffcc07-fbe4-4dbf-a1c8-f92024832eb3" />
+</p>
+<p>
+In your files navigate to the directory "C:\inetpub\wwwroot\osTicket\include\". Locate the file "ost-sampleconfig.php" and rename it to "ost-config.php".
+</p>
+<br />
+
+<p>
+<img width="1967" height="1100" alt="image" src="https://github.com/user-attachments/assets/a5c56b7a-a512-4d0c-b412-cec148474a36" />
+</p>
+<p>
+<img width="743" height="932" alt="image" src="https://github.com/user-attachments/assets/16789273-2d05-4471-96f9-3ec05642259a" />
+</p>
+<p>
+Right click the file you just renamed, and click on properties. Then navigate to the Security tab, and click advanced to edit the permissions for this file. Our goal is to add a new permission to allow osTicket to make any changes to this file. We will also be removing any other permissions attached to this file before doing so.
+</p>
+<br />
+
+<p>
+<img width="1407" height="952" alt="image" src="https://github.com/user-attachments/assets/95e1bbd0-12da-45a0-b78f-739964636050" />
+</p>
+<p>
+When inside the advanced security settings, click on "disable inheritance" this will cause a pop up. You'll then want to select "Remove all inherited permissions from this object.".
+</p>
+<br />
+
+<p>
+<img width="1398" height="943" alt="image" src="https://github.com/user-attachments/assets/7df4dda9-f7c7-4c5b-b218-2dff177d0008" />
+</p>
+<p>
+Click Add
+</p>
+<p>
+<img width="1678" height="1081" alt="image" src="https://github.com/user-attachments/assets/d3ffd296-b1de-404b-8e74-993d7af0de99" />
+</p>
+<p>
+Navigate to "select a principal" at the top of the window
+</p>
+<p>
+<img width="1679" height="1085" alt="image" src="https://github.com/user-attachments/assets/6a8d9e0d-d1a1-4f97-8322-800c9158b159" />
+</p>
+<p>
+Type "everyone" in the box and click ok.
+</p>
+<p>
+<img width="1675" height="1086" alt="image" src="https://github.com/user-attachments/assets/eeb91538-5d66-4243-ae42-0ec7dc01c6aa" />
+</p>
+<p>
+Check the box that says "full control" then click Ok
+</p>
+<br />
+
+<p>
+<img width="1404" height="947" alt="image" src="https://github.com/user-attachments/assets/89f6fc08-f757-44fb-aa18-b8e50ca8160c" />
+</p>
+<p>
+Click apply to apply the changes, then click Ok to exit the advanced security settings.
+</p>
+
+<p>
+
+</p>
