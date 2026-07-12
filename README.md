@@ -117,7 +117,7 @@ You'll then want to register the PHP from your C:\PHP Directory you created earl
 <img width="2485" height="1295" alt="image" src="https://github.com/user-attachments/assets/ccd208c4-31ad-4ad5-9923-57631cb1df83" />
 </p>
 <p>
-With nothing selected in IIS, Navigate to the far right panel to stop and restart the server to initiate the changes to the PHP Configuration.
+With nothing selected in IIS, Navigate to the far right Actions panel to stop and restart the server to initiate the changes to the PHP Configuration.
 </p>
 <br />
 
@@ -142,7 +142,7 @@ C:\inetpub\wwwroot
 <img width="1966" height="1103" alt="image" src="https://github.com/user-attachments/assets/bd14a8be-0ae7-4501-89e1-253b5b98b7d8" />
 </p>
 <p>
-After pasting the upload folder into the C:\inetpub\wwwroot directory, you'll want to rename the upload folder you just pasted to "osTicket"
+After pasting the upload folder into the C:\inetpub\wwwroot directory, you'll want to rename the upload folder you just pasted to "osTicket".
 </p>
 <br />
 
@@ -198,7 +198,7 @@ The 3 extensions we want to enable are called "php_imap.dll" "php_intl.dll" "php
 <img width="1592" height="1713" alt="image" src="https://github.com/user-attachments/assets/02419d40-8ae3-4abf-b773-1829cbbf5199" />
 </p>
 <p>
-after making those changes to the extensions, we can refresh the page for osTicket and see that all of our requirements have been met. The two X's at the bottom are only neeeded for faster performance.
+After making those changes to the extensions, we can refresh the page for osTicket and see that all of our requirements have been met. The two X's at the bottom are only neeeded for faster performance.
 </p>
 <br />
 
@@ -236,13 +236,13 @@ When inside the advanced security settings, click on "disable inheritance" this 
 <img width="1398" height="943" alt="image" src="https://github.com/user-attachments/assets/7df4dda9-f7c7-4c5b-b218-2dff177d0008" />
 </p>
 <p>
-Click Add
+Click Add.
 </p>
 <p>
 <img width="1678" height="1081" alt="image" src="https://github.com/user-attachments/assets/d3ffd296-b1de-404b-8e74-993d7af0de99" />
 </p>
 <p>
-Navigate to "select a principal" at the top of the window
+Navigate to "select a principal" at the top of the window.
 </p>
 <p>
 <img width="1679" height="1085" alt="image" src="https://github.com/user-attachments/assets/6a8d9e0d-d1a1-4f97-8322-800c9158b159" />
@@ -291,7 +291,7 @@ Inside the "osTicket-Installation-Files" folder on the VM desktop is a program c
 
 <p>
 <img width="995" height="811" alt="image" src="https://github.com/user-attachments/assets/3a078a35-7393-43f9-9dfc-f2b84eab0907" />
-Accept and click next
+Accept and click next.
 </p>
 <p>
 <img width="994" height="805" alt="image" src="https://github.com/user-attachments/assets/d0fbfbf4-74ed-4d78-b889-a1d6bbb8fe52" />
@@ -303,7 +303,7 @@ Accept and click next
 <img width="1200" height="841" alt="image" src="https://github.com/user-attachments/assets/2f90b192-18f8-4c61-abf4-9f69b55c9f1a" />
 </p>
 <p>
-In HeidiSQL you'll want to click New to start a new session. Fill in the username and password and keep it stored in a safe location, then click open to prepare for creating the osTicket database.
+In HeidiSQL you'll want to click "New" to start a new session. Fill in the username and password and keep it stored in a safe location, then click open to prepare for creating the osTicket database.
 </p>
 <br />
 
@@ -311,7 +311,7 @@ In HeidiSQL you'll want to click New to start a new session. Fill in the usernam
 <img width="1708" height="895" alt="image" src="https://github.com/user-attachments/assets/4f595649-2579-4f41-8a9d-70e7af979988" />
 </p>
 <p>
-In HeidiSQL, right click on the dolphin icon labeled "unnamed", hover over "create new" and click on database.
+In HeidiSQL, right click on the dolphin icon labeled "unnamed", hover over "create new", and click on database.
 </p>
 <br />
 
