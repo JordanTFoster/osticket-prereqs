@@ -300,5 +300,44 @@ Accept and click next
 <br />
 
 <p>
-
+<img width="1200" height="841" alt="image" src="https://github.com/user-attachments/assets/2f90b192-18f8-4c61-abf4-9f69b55c9f1a" />
 </p>
+<p>
+In HeidiSQL you'll want to click New to start a new session. Fill in the username and password and keep it stored in a safe location, then click open to prepare for creating the osTicket database.
+</p>
+<br />
+
+<p>
+<img width="1708" height="895" alt="image" src="https://github.com/user-attachments/assets/4f595649-2579-4f41-8a9d-70e7af979988" />
+</p>
+<p>
+In HeidiSQL, right click on the dolphin icon labeled "unnamed", hover over "create new" and click on database.
+</p>
+<br />
+
+<p>
+<img width="1710" height="899" alt="image" src="https://github.com/user-attachments/assets/caec672c-cd3a-49de-896f-632ae6e8e607" />
+</p>
+<p>
+You'll want to title the database "osTicket" then click ok when finished.
+</p>
+<br />
+
+<p>
+<img width="3199" height="1797" alt="image" src="https://github.com/user-attachments/assets/fd3ea3c1-44cd-4cd1-815e-f893f1a8b8dd" />
+</p>
+<p>
+After the database has been created, you will want to go back to the osTicket webpage where we started filling in the information for the install. At the bottom of the page you will need to type in the name of the database, as well as the username and password you set for MySQL. Click install when all information on the page has been filled in.
+</p>
+<br />
+
+<p>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/004fad9e-84dd-4556-963b-c26d8d490be6" />
+</p>
+<p>
+<img width="3199" height="1799" alt="image" src="https://github.com/user-attachments/assets/27ab4791-2cab-4b25-9e4a-79da8cc687a1" />
+</p>
+<p>
+osTicket should be successfully installed, and you should be able to log in with the admin credentials you created on the install page.
+</p>
+<br />
