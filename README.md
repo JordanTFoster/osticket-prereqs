@@ -348,3 +348,12 @@ osTicket should be successfully installed, and you should be able to log in with
 <p>
 Open your file explorer, and navigate to the directory "C:\inetpub\wwwroot\osTicket" and delete the folder titled "setup". This is some post install clean up that osTicket will remind you to do if not done.
 </p>
+<br />
+
+<p>
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/d018e731-5634-4257-a0ea-adab0249384f" />
+</p>
+<p>
+You'll also need to navigate to the directory "C:\inetpub\wwwroot\osTicket\include" and locate the file ost-config.php. Right click on it, click on properties, then click on the security tab. Then you'll click edit to change the permissions to read only. Every box should be unchecked besides the one labeled read. Click apply to save the changes then you're able to close out of file explorer.
+</p>
+<br />
