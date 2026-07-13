@@ -341,3 +341,10 @@ After the database has been created, you will want to go back to the osTicket we
 osTicket should be successfully installed, and you should be able to log in with the admin credentials you created on the install page.
 </p>
 <br />
+
+<p>
+<img width="1123" height="630" alt="image" src="https://github.com/user-attachments/assets/40e678e6-ef2d-4085-8870-0a1eb0891a69" />
+</p>
+<p>
+Open your file explorer, and navigate to the directory "C:\inetpub\wwwroot\osTicket" and delete the folder titled "setup". This is some post install clean up that osTicket will remind you to do if not done.
+</p>
